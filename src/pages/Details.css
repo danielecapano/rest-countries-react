@@ -1,0 +1,17 @@
+section {
+    padding-block: 5rem;
+
+    .btn {
+        display: inline-block;
+        padding: 10px 40px;
+        font-size: 1rem;
+        background-color: var(--elements-color);
+        color: var(--text-color);
+        font-weight: 300;
+        border-radius: 6px;
+        box-shadow: var(--card-shadow);
+        cursor: pointer;
+        margin-bottom: 5rem;
+
+    }
+}

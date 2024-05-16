@@ -1,0 +1,28 @@
+header {
+    position: relative;
+    background-color: var(--elements-color);
+    height: 80px;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-color);
+        }
+
+        .btn {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-color);
+            background-color: transparent;
+        }
+    }
+}

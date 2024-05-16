@@ -1,0 +1,47 @@
+section {
+  padding-block: 3rem;
+
+  .search-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    input::placeholder {
+      color: var(--text-color);
+    }
+
+    .search {
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      box-shadow: var(--shadow);
+      font-size: 0.875rem;
+      color: var(--input-color);
+      background-color: var(--elements-color);
+      padding: 1.125rem 1.125rem 1.125rem 4.875rem;
+      width: 480px;
+    }
+
+    .search-by-zone {
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      box-shadow: var(--shadow);
+      font-size: 0.875rem;
+      padding: 1.125rem 1.5rem;
+      background-color: var(--elements-color);
+      color: var(--text-color);
+
+      option {
+        padding: 1rem;
+      }
+    }
+  }
+
+  .countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+  }
+}
